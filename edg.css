@@ -1,0 +1,211 @@
+
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto Slab', serif;
+    background-color: rgb(158,207,30) ;
+    color: white;
+    
+}
+
+header {
+    top: 0;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+}
+
+.navbar1 {
+    list-style: none;
+    font-size: 2rem;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+.ragondin {
+    height: 100px;
+    width: 100px;
+}
+
+.container {
+    position: relative;
+}
+
+.btncontact {
+    text-decoration: none;
+    padding: 5px;
+    border: solid blue 1px;
+    background-color: coral;
+    margin: 20px;
+}
+
+.texte1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 10%;
+    padding: 1%;
+}
+
+.container1 {
+    position: relative;
+    padding: 1%;
+}
+
+.container2 {
+    position: relative;
+    align-self: center;
+    padding: 1%;
+}
+
+.textcontainer1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    
+}
+
+.textcontainer2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    opacity: 0.8;
+    background-image: radial-gradient(circle at center center, #1ecd21, #e5e5f7), repeating-radial-gradient(circle at center center, #1ecd21, #1ecd21, 10px, transparent 20px, transparent 10px);
+    background-blend-mode: multiply;
+    font-size: 2rem;
+    padding: 1%;
+}
+
+.notreEcole {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 10%;
+    width: 100%;
+    padding: 1%;
+}
+
+.labeldev {
+    width: auto;
+    align-self: center;
+    object-fit: contain;
+}
+
+.textlabel {
+    align-self: center;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+.footer {
+    padding: 1%;
+    display: grid;
+    
+        grid-template-columns: 1fr;
+        align-items: center;
+        background-color: rgb(5, 78, 5);
+    
+}
+
+.footertext {
+    text-align: center;
+}
+
+/* Media Queries pour les appareils mobiles */
+
+@media screen and (max-width: 768px) {
+    header {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .navbar1 {
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+
+    .ragondin {
+        height: 80px;
+        width: 80px;
+    }
+
+    .container {
+        margin-top: 20px;
+        height : 20%
+    }
+
+    .texte1 {
+        font-size: 0.5em;
+    }
+
+    .btncontact {
+        margin: 10px;
+        
+    }
+
+    .menu {
+        grid-template-columns: 1fr;
+    }
+
+    .textcontainer1,
+    .textcontainer2 {
+        font-size: 2rem;
+    }
+
+    .container3 {
+        font-size: 1.5rem;
+    }
+
+    .notreEcole {
+        grid-template-columns: 1fr;
+    }
+
+    .textlabel {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+
+    .footer {
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+}
+
+ .container {
+        padding: 0 10px;
+    }
+
+    .btncontact {
+        margin: 5px;
+    }
+
+
+
+
+
+
+
