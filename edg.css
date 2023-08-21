@@ -31,6 +31,9 @@ li,a{
     color: antiquewhite;
 
 }
+li,a:hover{
+    color: #1ecd21;
+}
 .navbar1 li a:visited {
     color: antiquewhite; /* Couleur de texte pour les liens visités */
 }
