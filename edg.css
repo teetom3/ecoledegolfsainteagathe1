@@ -34,6 +34,10 @@ li,a{
 .navbar1 li a:visited {
     color: antiquewhite; /* Couleur de texte pour les liens visités */
 }
+
+a:hover{
+    color:#1ecd21;
+}
 .ragondin {
     height: 100px;
     width: 100px;
